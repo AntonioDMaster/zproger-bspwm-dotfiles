@@ -17,11 +17,11 @@ BASE_PACKAGES = [
 ]
 
 DEV_PACKAGES = [
-    "cheese", "screenkey", "timeshift", "pinta", "kdenlive", "wireshark-qt",
-    "filezilla", "ghex", "chromium", "keepassxc", "audacity", "gufw", "python-pywal",
+    "timeshift", "pinta", "kdenlive", "wireshark-qt",
+    "filezilla", "ghex", "keepassxc", "audacity", "gufw", "python-pywal",
     "bleachbit", "veracrypt", "homebank", "gtkhash", "gnome-firmware", "touche", "dconf-editor",
-    "neovim", "obs-studio", "telegram-desktop", "tmux", "youtube-dl", "code", "cowsay",
-    "deluge-gtk", "flameshot", "sqlitebrowser", "obsidian", "python-pip", "bpython", "ipython", "cloc",
+    "neovim", "tmux", "yt-dlp", "code", "cowsay",
+    "qbittorrent", "flameshot", "sqlitebrowser", "python-pip", "bpython", "ipython", "cloc",
 ]
 
 AUR_PACKAGES = [
@@ -30,6 +30,6 @@ AUR_PACKAGES = [
 
 GNOME_OFFICIAL_TOOLS = [
     "evince", "gnome-calculator", "gnome-disk-utility", "gucharmap",
-    "gthumb", "gnome-clocks"
+    "gthumb", "gnome-clocks", "gearlever"
 ]
 
